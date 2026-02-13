@@ -1,0 +1,22 @@
+{
+  "timezone": "Asia/Taipei",
+  "session_digest": {
+    "cron": "0 4 * * *",
+    "description": "Convert session JSONL to markdown digests"
+  },
+  "memory_consolidation": {
+    "cron": "30 4 * * *",
+    "description": "Classify daily memories into neuron categories"
+  },
+  "qmd_update": {
+    "cron": "35 4 * * *",
+    "description": "Update QMD vector index"
+  },
+  "forgetting_curve": {
+    "cron": "0 5 1 * *",
+    "description": "Monthly summary + archive old files"
+  },
+  "archive_days": 90,
+  "monthly_summary": true,
+  "model": "anthropic/claude-haiku-4-5"
+}

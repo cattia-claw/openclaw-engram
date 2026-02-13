@@ -1,0 +1,34 @@
+{
+  "categories": {
+    "emotions": {
+      "display_name": "Emotions & Rapport",
+      "display_name_zh": "情感",
+      "patterns": ["like", "dislike", "feel", "mood", "prefer", "happy", "sad", "angry", "love",
+                   "喜歡", "討厭", "感覺", "情緒", "默契", "習慣", "偏好", "感謝", "抱歉"],
+      "indicators": ["think", "believe", "opinion", "你覺得", "我認為"]
+    },
+    "people": {
+      "display_name": "Important People",
+      "display_name_zh": "重要的人",
+      "patterns": ["family", "friend", "colleague", "wife", "husband", "son", "daughter",
+                   "家人", "朋友", "同事", "太太", "先生", "兒子", "女兒"],
+      "indicators": ["who", "name", "relationship", "誰", "名字", "稱呼", "關係"]
+    },
+    "topics": {
+      "display_name": "Interests & Discussions",
+      "display_name_zh": "話題",
+      "patterns": ["hobby", "travel", "game", "movie", "book", "music", "sport",
+                   "旅行", "遊戲", "電影", "書籍", "音樂", "運動"],
+      "indicators": ["interest", "discuss", "topic", "興趣", "愛好", "討論", "話題", "閒聊"]
+    },
+    "work": {
+      "display_name": "Projects & Tasks",
+      "display_name_zh": "工作",
+      "patterns": ["project", "website", "code", "API", "deploy", "GitHub", "cron", "automation",
+                   "專案", "網站", "程式", "自動化", "部署"],
+      "indicators": ["task", "TODO", "progress", "done", "bug", "fix",
+                    "任務", "待辦", "進度", "完成"]
+    }
+  },
+  "default_category": "work"
+}
